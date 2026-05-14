@@ -72,7 +72,7 @@
     <div class="mx-auto flex max-w-[1320px] items-center justify-between px-4 py-4 lg:py-5">
       <a href="#home" class="flex items-center">
         <img 
-          src="./logosnapp.png" 
+          src="https://res.cloudinary.com/dxofep2ep/image/upload/v1778786570/logosnapp_packdg.png" 
           alt="Snappcode Gallery Logo"
           class="h-20 w-auto object-contain"
   >
