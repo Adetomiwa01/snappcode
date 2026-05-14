@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snappcode Gallery | Portraits • Events • Weddings • Video Production</title>
+  <meta name="description" content="Snappcode Gallery — portraits, events, weddings, and video production. Book via WhatsApp for seamless creative coverage." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fff9ec',
+              100: '#fff1c9',
+              200: '#ffe28a',
+              300: '#ffd24d',
+              400: '#f7bc1f',
+              500: '#d99a0d',
+              600: '#b97d09',
+              700: '#8a5c07',
+              800: '#5f4007',
+              900: '#3f2b05'
+            }
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(0,0,0,0.08)',
+            luxe: '0 18px 60px rgba(0,0,0,0.14)'
+          },
+          letterSpacing: {
+            tighter2: '-0.04em'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #ffffff; }
+    .container-wide { max-width: 1320px; }
+    .hero-gradient {
+      background:
+        radial-gradient(circle at top left, rgba(217,154,13,0.14), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(0,0,0,0.06), transparent 28%),
+        linear-gradient(180deg, #ffffff 0%, #fffdf7 100%);
+    }
+    .gold-line { background: linear-gradient(90deg, #d99a0d 0%, #8a5c07 100%); }
+    .placeholder {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(217,154,13,0.18), rgba(0,0,0,0.08)),
+        linear-gradient(180deg, #f4f4f4, #ececec);
+    }
+    .placeholder::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(120deg, rgba(255,255,255,0) 30%, rgba(255,255,255,0.45) 50%, rgba(255,255,255,0) 70%);
+      transform: translateX(-120%);
+    }
+    .placeholder:hover::after { animation: sheen 1.1s ease; }
+    @keyframes sheen { to { transform: translateX(120%); } }
+  </style>
+</head>
+<body class="text-zinc-900 antialiased">
+  <!-- Header -->
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-zinc-200/70 bg-white/90 backdrop-blur">
+    <div class="mx-auto flex max-w-[1320px] items-center justify-between px-4 py-4 lg:py-5">
+      <a href="#home" class="flex items-center">
+        <img 
+          src="./logosnapp.png" 
+          alt="Snappcode Gallery Logo"
+          class="h-20 w-auto object-contain"
+  >
+</a>
+
+      <nav class="hidden items-center gap-8 text-sm uppercase tracking-[0.18em] lg:flex">
+        <a class="text-zinc-900 transition hover:text-brand-700" href="#home">Home</a>
+        <a class="text-zinc-600 transition hover:text-brand-700" href="#portfolio">Portfolio</a>
+        <a class="text-zinc-600 transition hover:text-brand-700" href="#how-it-works">How it works</a>
+        <a class="text-zinc-600 transition hover:text-brand-700" href="#pricing">Pricing</a>
+        <a class="text-zinc-600 transition hover:text-brand-700" href="#contact">Contact</a>
+      </nav>
+
+      <div class="hidden items-center gap-3 lg:flex">
+        <a href="https://wa.me/2349152574726" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-zinc-200 px-5 py-2.5 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-700 transition hover:border-brand-500 hover:text-brand-700">
+          WhatsApp
+        </a>
+        <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20a%20shoot." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-2.5 text-sm font-semibold uppercase tracking-[0.16em] text-white shadow-soft transition hover:bg-brand-700">
+          Get Started
+        </a>
+      </div>
+
+      <button class="lg:hidden rounded-xl border border-zinc-200 p-2" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="pt-24 lg:pt-28">
+    <!-- Hero -->
+    <section id="home" class="hero-gradient border-b border-zinc-100">
+      <div class="mx-auto grid max-w-[1320px] items-center gap-12 px-4 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-20">
+        <div>
+          <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-brand-700 shadow-soft">
+            Portraits • Events • Weddings • Video Production
+          </div>
+          <h1 class="max-w-3xl text-4xl font-semibold leading-[1.02] tracking-tight lg:text-7xl">
+            Visual storytelling made to feel clean, premium, and unforgettable.
+          </h1>
+          <p class="mt-6 max-w-2xl text-base leading-7 text-zinc-600 lg:text-lg">
+            Snappcode Gallery creates portraits, event coverage, wedding visuals, and branded video content with a sharp eye for detail and a polished delivery process.
+          </p>
+
+          <div class="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-[220px_220px_180px]">
+            <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20get%20a%20quote." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white shadow-soft transition hover:bg-brand-700">
+              Get Quote
+            </a>
+            <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20a%20shoot." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-zinc-200 bg-white px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-800 transition hover:border-brand-400 hover:text-brand-700">
+              Book on WhatsApp
+            </a>
+            <a href="https://wa.me/2349152574726" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-zinc-200 px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-700 transition hover:border-brand-400 hover:text-brand-700">
+              View Packages
+            </a>
+          </div>
+
+          <div class="mt-8 grid max-w-2xl grid-cols-2 gap-4 sm:grid-cols-4">
+            <div class="rounded-2xl border border-zinc-200 bg-white p-4 shadow-soft">
+              <div class="text-2xl font-semibold">Portraits</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.18em] text-zinc-500">Studio & outdoor</div>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 bg-white p-4 shadow-soft">
+              <div class="text-2xl font-semibold">Events</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.18em] text-zinc-500">Coverage & recap</div>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 bg-white p-4 shadow-soft">
+              <div class="text-2xl font-semibold">Weddings</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.18em] text-zinc-500">Story-driven</div>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 bg-white p-4 shadow-soft">
+              <div class="text-2xl font-semibold">Video</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.18em] text-zinc-500">Production & edits</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-4 lg:grid-cols-2 lg:gap-5">
+          <div class="placeholder rounded-[2rem] border border-zinc-200 shadow-luxe aspect-[4/5]"></div>
+          <div class="grid gap-4">
+            <div class="placeholder rounded-[2rem] border border-zinc-200 shadow-soft aspect-[4/3]"></div>
+            <div class="placeholder rounded-[2rem] border border-zinc-200 shadow-soft aspect-[4/3]"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand/Trust strip -->
+    <section class="border-b border-zinc-100 bg-white py-10">
+      <div class="mx-auto max-w-[1320px] px-4">
+        <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+          <p class="text-sm uppercase tracking-[0.25em] text-zinc-500">Trusted for moments that matter</p>
+          <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-center text-sm font-medium text-zinc-700">Weddings</div>
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-center text-sm font-medium text-zinc-700">Brand Shoots</div>
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-center text-sm font-medium text-zinc-700">Portraits</div>
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-center text-sm font-medium text-zinc-700">Events</div>
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-center text-sm font-medium text-zinc-700">Video</div>
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-center text-sm font-medium text-zinc-700">Reels</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+<section id="pricing" class="bg-white py-16 lg:py-24">
+  <div class="mx-auto max-w-[1320px] px-4">
+    
+    <div class="max-w-3xl">
+      <div class="text-sm uppercase tracking-[0.28em] text-brand-700">
+        Birthday Packages
+      </div>
+
+      <h2 class="mt-3 text-3xl font-semibold tracking-tight lg:text-6xl">
+        It’s not just your birthday. It’s your moment.
+      </h2>
+
+      <p class="mt-4 max-w-2xl text-zinc-600">
+        Premium birthday photography and cinematic storytelling crafted for unforgettable celebrations.
+      </p>
+    </div>
+
+    <div class="mt-10 grid gap-6 lg:grid-cols-3">
+
+      <!-- Package 1 -->
+      <article class="overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-soft transition duration-300 hover:-translate-y-1 hover:shadow-luxe">
+
+        <div class="aspect-[4/3] overflow-hidden">
+          <div class="placeholder h-full w-full"></div>
+        </div>
+
+        <div class="p-6">
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.24em] text-brand-700">
+                Snappcode Gallery
+              </p>
+
+              <h3 class="mt-2 text-2xl font-semibold">
+                Mini Birthday Session
+              </h3>
+            </div>
+
+            <span class="rounded-full bg-zinc-100 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-700">
+              Starter
+            </span>
+          </div>
+
+          <div class="mt-6 flex items-end gap-2">
+            <span class="text-5xl font-black tracking-tighter text-zinc-900">
+              ₦100K
+            </span>
+          </div>
+
+          <div class="mt-6 space-y-3">
+
+            <div class="flex items-center justify-between rounded-2xl bg-zinc-50 px-4 py-3">
+              <span class="text-sm text-zinc-500">Outfit</span>
+              <span class="text-sm font-semibold text-zinc-900">1 Outfit</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-zinc-50 px-4 py-3">
+              <span class="text-sm text-zinc-500">Edited Pictures</span>
+              <span class="text-sm font-semibold text-zinc-900">5 Edited Photos</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-zinc-50 px-4 py-3">
+              <span class="text-sm text-zinc-500">Studio Time</span>
+              <span class="text-sm font-semibold text-zinc-900">45 Minutes</span>
+            </div>
+
+          </div>
+
+          <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20the%20Mini%20Birthday%20Session." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex w-full items-center justify-center rounded-full border border-zinc-200 px-5 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-800 transition hover:border-brand-400 hover:text-brand-700">
+            Book Now
+          </a>
+        </div>
+      </article>
+
+      <!-- Package 2 -->
+      <article class="relative overflow-hidden rounded-[2rem] bg-zinc-950 text-white shadow-luxe transition duration-300 hover:-translate-y-1">
+
+        <div class="absolute right-0 top-0 h-40 w-40 rounded-full bg-brand-500/20 blur-3xl"></div>
+
+        <div class="aspect-[4/3] overflow-hidden border-b border-zinc-800">
+          <div class="placeholder h-full w-full"></div>
+        </div>
+
+        <div class="relative p-6">
+
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.24em] text-brand-200">
+                Snappcode Gallery
+              </p>
+
+              <h3 class="mt-2 text-2xl font-semibold">
+                Signature Birthday
+              </h3>
+            </div>
+
+            <span class="rounded-full bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-white">
+              Popular
+            </span>
+          </div>
+
+          <div class="mt-6 flex items-end gap-2">
+            <span class="text-5xl font-black tracking-tighter text-white">
+              ₦250K
+            </span>
+          </div>
+
+          <div class="mt-6 space-y-3">
+
+            <div class="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-3">
+              <span class="text-sm text-zinc-400">Outfits</span>
+              <span class="text-sm font-semibold text-white">3 Outfits</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-3">
+              <span class="text-sm text-zinc-400">Edited Pictures</span>
+              <span class="text-sm font-semibold text-white">10 Edited Photos</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-3">
+              <span class="text-sm text-zinc-400">Experience</span>
+              <span class="text-sm font-semibold text-white">Premium Direction</span>
+            </div>
+
+          </div>
+
+          <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20the%20Signature%20Birthday%20package." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex w-full items-center justify-center rounded-full bg-white px-5 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-900 transition hover:bg-brand-100">
+            Book Now
+          </a>
+        </div>
+      </article>
+
+      <!-- Package 3 -->
+      <article class="overflow-hidden rounded-[2rem] border border-brand-200 bg-brand-50 shadow-soft transition duration-300 hover:-translate-y-1 hover:shadow-luxe">
+
+        <div class="aspect-[4/3] overflow-hidden">
+          <div class="placeholder h-full w-full"></div>
+        </div>
+
+        <div class="p-6">
+
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.24em] text-brand-700">
+                Snappcode Gallery
+              </p>
+
+              <h3 class="mt-2 text-2xl font-semibold text-zinc-900">
+                Luxury Birthday Film
+              </h3>
+            </div>
+
+            <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-brand-700">
+              Premium
+            </span>
+          </div>
+
+          <div class="mt-6 flex items-end gap-2">
+            <span class="text-5xl font-black tracking-tighter text-zinc-900">
+              ₦500K
+            </span>
+          </div>
+
+          <div class="mt-6 space-y-3">
+
+            <div class="flex items-center justify-between rounded-2xl bg-white px-4 py-3">
+              <span class="text-sm text-zinc-500">Outfits</span>
+              <span class="text-sm font-semibold text-zinc-900">3 Outfits</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-white px-4 py-3">
+              <span class="text-sm text-zinc-500">Edited Pictures</span>
+              <span class="text-sm font-semibold text-zinc-900">12 Edited Photos</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-white px-4 py-3">
+              <span class="text-sm text-zinc-500">Birthday Film</span>
+              <span class="text-sm font-semibold text-zinc-900">Cinematic Video</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl bg-white px-4 py-3">
+              <span class="text-sm text-zinc-500">Extras</span>
+              <span class="text-sm font-semibold text-zinc-900">BTS Phone Content</span>
+            </div>
+
+          </div>
+
+          <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20the%20Luxury%20Birthday%20Film%20package." target="_blank" rel="noopener noreferrer" class="mt-7 inline-flex w-full items-center justify-center rounded-full bg-zinc-900 px-5 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:bg-brand-700">
+            Book Now
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Notes -->
+    <div class="mt-8 rounded-[2rem] border border-zinc-200 bg-zinc-50 p-6 lg:p-8">
+
+      <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+
+        <div>
+          <h4 class="text-lg font-semibold text-zinc-900">
+            Important Information
+          </h4>
+
+          <div class="mt-3 flex flex-wrap gap-3 text-sm text-zinc-600">
+
+            <span class="rounded-full bg-white px-4 py-2">
+              Extra edits: ₦30,000 each
+            </span>
+
+            <span class="rounded-full bg-white px-4 py-2">
+              Home sessions attract logistics fees
+            </span>
+
+            <span class="rounded-full bg-white px-4 py-2">
+              Complimentary services do not affect pricing
+            </span>
+
+          </div>
+        </div>
+
+        <div class="text-sm text-zinc-600">
+          Studio Location:
+          <span class="font-semibold text-zinc-900">
+            Lekki, Lagos
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="bg-zinc-50 py-16 lg:py-24">
+      <div class="mx-auto max-w-[1320px] px-4">
+        <div class="text-center">
+          <div class="text-sm uppercase tracking-[0.28em] text-brand-700">Portfolio</div>
+          <h2 class="mt-3 text-3xl font-semibold tracking-tight lg:text-6xl">Our work speaks for itself.</h2>
+          <p class="mx-auto mt-4 max-w-2xl text-zinc-600">Use this grid to showcase your best portraits, weddings, events, and video frames once you insert the images manually.</p>
+        </div>
+
+        <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="group overflow-hidden rounded-[1.75rem] border border-zinc-200 bg-white shadow-soft">
+            <div class="placeholder aspect-square"></div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold">Portrait Session</h3>
+              <p class="mt-1 text-sm text-zinc-600">Clean and confident portraits.</p>
+              <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20this%20portrait%20style." target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-full items-center justify-center rounded-full bg-zinc-900 px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-brand-700">
+                I want this look
+              </a>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[1.75rem] border border-zinc-200 bg-white shadow-soft">
+            <div class="placeholder aspect-square"></div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold">Event Coverage</h3>
+              <p class="mt-1 text-sm text-zinc-600">Candid storytelling and atmosphere.</p>
+              <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20this%20event%20coverage%20style." target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-full items-center justify-center rounded-full bg-zinc-900 px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-brand-700">
+                I want this look
+              </a>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[1.75rem] border border-zinc-200 bg-white shadow-soft">
+            <div class="placeholder aspect-square"></div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold">Wedding Moments</h3>
+              <p class="mt-1 text-sm text-zinc-600">Soft, emotional, premium coverage.</p>
+              <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20this%20wedding%20style." target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-full items-center justify-center rounded-full bg-zinc-900 px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-brand-700">
+                I want this look
+              </a>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[1.75rem] border border-zinc-200 bg-white shadow-soft">
+            <div class="placeholder aspect-square"></div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold">Brand Content</h3>
+              <p class="mt-1 text-sm text-zinc-600">Commercial visuals with edge.</p>
+              <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20this%20brand%20content%20style." target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-full items-center justify-center rounded-full bg-zinc-900 px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-brand-700">
+                I want this look
+              </a>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[1.75rem] border border-zinc-200 bg-white shadow-soft">
+            <div class="placeholder aspect-square"></div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold">Video Production</h3>
+              <p class="mt-1 text-sm text-zinc-600">Reels, promo clips, and edits.</p>
+              <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20video%20production%20details." target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-full items-center justify-center rounded-full bg-zinc-900 px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-brand-700">
+                I want this look
+              </a>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[1.75rem] border border-zinc-200 bg-white shadow-soft">
+            <div class="aspect-square bg-zinc-900 p-8 text-white flex items-center justify-center text-center">
+              <div>
+                <div class="text-sm uppercase tracking-[0.28em] text-brand-200">View all</div>
+                <h3 class="mt-3 text-3xl font-semibold leading-tight">See more of our work</h3>
+                <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20please%20send%20more%20portfolio%20examples." target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-zinc-900 transition hover:bg-brand-100">
+                  Send me more
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="bg-white py-16 lg:py-24">
+      <div class="mx-auto max-w-[1320px] px-4">
+        <div class="text-center">
+          <div class="text-sm uppercase tracking-[0.28em] text-brand-700">Benefits</div>
+          <h2 class="mt-3 text-3xl font-semibold tracking-tight lg:text-6xl">Why choose Snappcode Gallery?</h2>
+        </div>
+
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <div class="rounded-[1.75rem] border border-zinc-200 p-7 text-center shadow-soft">
+            <div class="text-5xl font-semibold tracking-tight text-brand-700">01</div>
+            <h3 class="mt-4 text-xl font-semibold">Professional direction</h3>
+            <p class="mt-3 text-zinc-600">Guidance on poses, framing, and mood so clients always look comfortable and intentional.</p>
+          </div>
+          <div class="rounded-[1.75rem] border border-zinc-200 p-7 text-center shadow-soft">
+            <div class="text-5xl font-semibold tracking-tight text-brand-700">02</div>
+            <h3 class="mt-4 text-xl font-semibold">Clean workflow</h3>
+            <p class="mt-3 text-zinc-600">From booking to delivery, the process stays simple, fast, and easy to follow on WhatsApp.</p>
+          </div>
+          <div class="rounded-[1.75rem] border border-zinc-200 p-7 text-center shadow-soft">
+            <div class="text-5xl font-semibold tracking-tight text-brand-700">03</div>
+            <h3 class="mt-4 text-xl font-semibold">Premium finish</h3>
+            <p class="mt-3 text-zinc-600">Retouching, color, and composition tuned for a polished visual identity across platforms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Slider -->
+<section class="bg-zinc-50 py-16 lg:py-24 overflow-hidden">
+  <div class="mx-auto max-w-[1320px] px-4">
+
+    <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      
+      <div>
+        <div class="text-sm uppercase tracking-[0.28em] text-brand-700">
+          Featured Moments
+        </div>
+
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight lg:text-6xl">
+          Captured with emotion, styled with intention.
+        </h2>
+      </div>
+
+      <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20a%20session." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:bg-brand-700">
+        Book a Session
+      </a>
+
+    </div>
+
+    <!-- Slider -->
+    <div class="relative mt-12">
+
+      <!-- Slides -->
+      <div id="portfolioSlider" class="flex gap-5 overflow-hidden scroll-smooth">
+
+        <!-- Image 1 -->
+        <div class="slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] bg-white shadow-soft">
+          <div class="aspect-[4/5]">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] bg-white shadow-soft">
+          <div class="aspect-[4/5]">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] bg-white shadow-soft">
+          <div class="aspect-[4/5]">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] bg-white shadow-soft">
+          <div class="aspect-[4/5]">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+        </div>
+
+        <!-- Image 5 -->
+        <div class="slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] bg-white shadow-soft">
+          <div class="aspect-[4/5]">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+        </div>
+
+        <!-- Image 6 -->
+        <div class="slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] bg-white shadow-soft">
+          <div class="aspect-[4/5]">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div id="portfolioPagination" class="mt-8 flex items-center justify-center gap-3">
+
+        <button class="pagination-dot h-3 w-3 rounded-full bg-zinc-900 transition-all duration-300"></button>
+
+        <button class="pagination-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="pagination-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="pagination-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="pagination-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="pagination-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<script>
+  const slider = document.getElementById('portfolioSlider');
+  const dots = document.querySelectorAll('.pagination-dot');
+  const slides = document.querySelectorAll('.slide');
+
+  let currentIndex = 0;
+
+  function updateSlider() {
+    const slideWidth = slides[0].offsetWidth + 20;
+
+    slider.scrollTo({
+      left: slideWidth * currentIndex,
+      behavior: 'smooth'
+    });
+
+    dots.forEach((dot, index) => {
+      dot.classList.remove('bg-zinc-900');
+      dot.classList.add('bg-zinc-300');
+
+      if (index === currentIndex) {
+        dot.classList.remove('bg-zinc-300');
+        dot.classList.add('bg-zinc-900');
+      }
+    });
+  }
+
+  function autoSlide() {
+    currentIndex++;
+
+    if (currentIndex >= slides.length) {
+      currentIndex = 0;
+    }
+
+    updateSlider();
+  }
+
+  let sliderInterval = setInterval(autoSlide, 3500);
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      currentIndex = index;
+      updateSlider();
+
+      clearInterval(sliderInterval);
+      sliderInterval = setInterval(autoSlide, 3500);
+    });
+  });
+</script>
+
+
+
+<!-- Testimonials -->
+<section class="bg-white py-16 lg:py-24 overflow-hidden">
+  <div class="mx-auto max-w-[1320px] px-4">
+
+    <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+
+      <div class="max-w-3xl">
+        <div class="text-sm uppercase tracking-[0.28em] text-brand-700">
+          Client Testimonials
+        </div>
+
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-zinc-900 lg:text-6xl">
+          Real reactions from real clients.
+        </h2>
+
+        <p class="mt-5 max-w-2xl leading-7 text-zinc-600">
+          Every session is built around experience, storytelling, and premium delivery; and our clients notice the difference.
+        </p>
+      </div>
+
+      <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20a%20session." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:bg-brand-700">
+        Book a Session
+      </a>
+
+    </div>
+
+    <!-- Testimonial Slider -->
+    <div class="relative mt-14">
+
+      <div id="testimonialSlider" class="flex gap-5 overflow-hidden scroll-smooth">
+
+        <!-- Testimonial 1 -->
+        <div class="testimonial-slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-soft">
+          
+          <div class="aspect-[4/5] overflow-hidden">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-soft">
+          
+          <div class="aspect-[4/5] overflow-hidden">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-soft">
+          
+          <div class="aspect-[4/5] overflow-hidden">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial-slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-soft">
+          
+          <div class="aspect-[4/5] overflow-hidden">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="testimonial-slide min-w-full md:min-w-[48%] lg:min-w-[32%] overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-soft">
+          
+          <div class="aspect-[4/5] overflow-hidden">
+            <div class="placeholder h-full w-full"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div id="testimonialPagination" class="mt-8 flex items-center justify-center gap-3">
+
+        <button class="testimonial-dot h-3 w-3 rounded-full bg-zinc-900 transition-all duration-300"></button>
+
+        <button class="testimonial-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="testimonial-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="testimonial-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+        <button class="testimonial-dot h-3 w-3 rounded-full bg-zinc-300 transition-all duration-300"></button>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<script>
+  const testimonialSlider = document.getElementById('testimonialSlider');
+  const testimonialDots = document.querySelectorAll('.testimonial-dot');
+  const testimonialSlides = document.querySelectorAll('.testimonial-slide');
+
+  let testimonialIndex = 0;
+
+  function updateTestimonials() {
+    const slideWidth = testimonialSlides[0].offsetWidth + 20;
+
+    testimonialSlider.scrollTo({
+      left: slideWidth * testimonialIndex,
+      behavior: 'smooth'
+    });
+
+    testimonialDots.forEach((dot, index) => {
+      dot.classList.remove('bg-zinc-900');
+      dot.classList.add('bg-zinc-300');
+
+      if (index === testimonialIndex) {
+        dot.classList.remove('bg-zinc-300');
+        dot.classList.add('bg-zinc-900');
+      }
+    });
+  }
+
+  function autoTestimonialSlide() {
+    testimonialIndex++;
+
+    if (testimonialIndex >= testimonialSlides.length) {
+      testimonialIndex = 0;
+    }
+
+    updateTestimonials();
+  }
+
+  let testimonialInterval = setInterval(autoTestimonialSlide, 4000);
+
+  testimonialDots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      testimonialIndex = index;
+      updateTestimonials();
+
+      clearInterval(testimonialInterval);
+      testimonialInterval = setInterval(autoTestimonialSlide, 4000);
+    });
+  });
+</script>
+
+<!-- Process -->
+<section id="how-it-works" class="bg-white py-16 lg:py-24">
+  <div class="mx-auto max-w-[1320px] px-4">
+
+    <div class="text-sm uppercase tracking-[0.28em] text-brand-700">
+      Our Process
+    </div>
+
+    <h2 class="mt-3 text-3xl font-semibold tracking-tight lg:text-6xl">
+      A simple 4-step flow.
+    </h2>
+
+    <div class="mt-12 grid gap-8 lg:grid-cols-[80px_1fr]">
+
+      <!-- LEFT TIMELINE (FIXED ALIGNMENT) -->
+      <div class="relative hidden lg:grid lg:grid-rows-4 lg:gap-6">
+
+        <div class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-zinc-200"></div>
+
+        <!-- Step 1 -->
+        <div class="flex items-start justify-center">
+          <div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 text-white font-semibold">
+            1
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex items-start justify-center">
+          <div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 text-white font-semibold">
+            2
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex items-start justify-center">
+          <div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 text-white font-semibold">
+            3
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="flex items-start justify-center">
+          <div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 text-white font-semibold">
+            4
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="space-y-6">
+
+        <div class="rounded-[1.75rem] border border-zinc-200 bg-white p-8 shadow-soft">
+          <h3 class="text-2xl font-semibold">Get a Quote</h3>
+          <p class="mt-3 text-zinc-600">
+            Send a message on WhatsApp with your shoot type, preferred aesthetic, event date, and location.
+          </p>
+        </div>
+
+        <div class="rounded-[1.75rem] border border-zinc-200 bg-white p-8 shadow-soft">
+          <h3 class="text-2xl font-semibold">Confirm Details</h3>
+          <p class="mt-3 text-zinc-600">
+            We finalize your package, mood direction, timing, outfits, and creative direction.
+          </p>
+        </div>
+
+        <div class="rounded-[1.75rem] border border-zinc-200 bg-white p-8 shadow-soft">
+          <h3 class="text-2xl font-semibold">Shoot Day</h3>
+          <p class="mt-3 text-zinc-600">
+            Your session is captured with premium direction and cinematic storytelling.
+          </p>
+        </div>
+
+        <div class="rounded-[1.75rem] border border-zinc-200 bg-white p-8 shadow-soft">
+          <h3 class="text-2xl font-semibold">Delivery</h3>
+          <p class="mt-3 text-zinc-600">
+            Receive your professionally edited photos and cinematic visuals after post-production.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Instagram Section -->
+<section class="bg-zinc-950 py-16 lg:py-24 overflow-hidden">
+  <div class="mx-auto max-w-[1320px] px-4">
+
+    <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+
+      <div class="max-w-3xl">
+        <div class="text-sm uppercase tracking-[0.28em] text-brand-300">
+          Follow Our Journey
+        </div>
+
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-white lg:text-6xl">
+          More visuals. More stories. More moments.
+        </h2>
+
+        <p class="mt-5 max-w-2xl text-zinc-400 leading-7">
+          Follow Snappcode Gallery on Instagram for behind-the-scenes moments, cinematic birthday sessions, luxury portraits, and premium event storytelling.
+        </p>
+      </div>
+
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-900 transition hover:bg-brand-100">
+        Follow @snappcodegallery
+      </a>
+
+    </div>
+
+    <!-- Instagram Grid -->
+    <div class="mt-14 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
+
+      <!-- Image 1 -->
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden rounded-[1.5rem]">
+        
+        <div class="aspect-[1/1] overflow-hidden">
+          <div class="placeholder h-full w-full transition duration-500 group-hover:scale-110"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/30"></div>
+
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+          <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-900">
+            View Post
+          </span>
+        </div>
+
+      </a>
+
+      <!-- Image 2 -->
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden rounded-[1.5rem]">
+        
+        <div class="aspect-[1/1] overflow-hidden">
+          <div class="placeholder h-full w-full transition duration-500 group-hover:scale-110"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/30"></div>
+
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+          <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-900">
+            View Post
+          </span>
+        </div>
+
+      </a>
+
+      <!-- Image 3 -->
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden rounded-[1.5rem]">
+        
+        <div class="aspect-[1/1] overflow-hidden">
+          <div class="placeholder h-full w-full transition duration-500 group-hover:scale-110"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/30"></div>
+
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+          <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-900">
+            View Post
+          </span>
+        </div>
+
+      </a>
+
+      <!-- Image 4 -->
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden rounded-[1.5rem]">
+        
+        <div class="aspect-[1/1] overflow-hidden">
+          <div class="placeholder h-full w-full transition duration-500 group-hover:scale-110"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/30"></div>
+
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+          <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-900">
+            View Post
+          </span>
+        </div>
+
+      </a>
+
+      <!-- Image 5 -->
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden rounded-[1.5rem]">
+        
+        <div class="aspect-[1/1] overflow-hidden">
+          <div class="placeholder h-full w-full transition duration-500 group-hover:scale-110"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/30"></div>
+
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+          <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-900">
+            View Post
+          </span>
+        </div>
+
+      </a>
+
+      <!-- Image 6 -->
+      <a href="https://www.instagram.com/snappcodegallery/" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden rounded-[1.5rem]">
+        
+        <div class="aspect-[1/1] overflow-hidden">
+          <div class="placeholder h-full w-full transition duration-500 group-hover:scale-110"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/30"></div>
+
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+          <span class="rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-900">
+            View Post
+          </span>
+        </div>
+
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="bg-zinc-950 py-16 lg:py-24 text-white">
+      <div class="mx-auto grid max-w-[1320px] items-center gap-10 px-4 lg:grid-cols-[1fr_0.9fr]">
+        <div>
+          <div class="text-sm uppercase tracking-[0.28em] text-brand-200">Need help deciding?</div>
+          <h2 class="mt-3 text-3xl font-semibold tracking-tight lg:text-6xl">Let’s talk through the shoot and shape the right package.</h2>
+          <p class="mt-4 max-w-2xl text-zinc-300">Every button on this page is intentionally routed to WhatsApp, so the user journey stays simple and conversion-focused.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20need%20help%20choosing%20a%20package." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-900 transition hover:bg-brand-100">
+              Chat on WhatsApp
+            </a>
+            <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20please%20send%20your%20availability." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-zinc-700 px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:border-brand-400 hover:text-brand-200">
+              Check Availability
+            </a>
+          </div>
+        </div>
+
+        <div class="rounded-[2rem] border border-zinc-800 bg-zinc-900 p-6 shadow-luxe">
+          <div class="placeholder aspect-[16/10] rounded-[1.5rem] border border-zinc-700"></div>
+          <div class="mt-6 grid gap-3 text-sm text-zinc-300">
+            <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+              <span>WhatsApp</span>
+              <a class="text-white underline-offset-4 hover:underline" href="https://wa.me/2349152574726">+234 915 257 4726</a>
+            </div>
+            <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+              <span>Services</span>
+              <span>Portraits / Events / Weddings / Video</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>Response</span>
+              <span>Fast, direct, simple</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-200 bg-white py-8">
+    <div class="mx-auto flex max-w-[1320px] flex-col gap-4 px-4 lg:flex-row lg:items-center lg:justify-between">
+      <p class="text-sm text-zinc-600">© 2026 Snappcode Gallery. All rights reserved.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://wa.me/2349152574726" target="_blank" rel="noopener noreferrer" class="rounded-full border border-zinc-200 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:border-brand-400 hover:text-brand-700">WhatsApp</a>
+        <a href="https://wa.me/2349152574726?text=Hello%20Snappcode%20Gallery,%20I%20want%20to%20book%20a%20session." target="_blank" rel="noopener noreferrer" class="rounded-full bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700">Book Now</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
